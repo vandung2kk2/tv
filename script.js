@@ -19,7 +19,8 @@ window.onload = function(){
 		last = idx;
 	})
 	inp.onkeydown = function(k){
-		if(k.key == "Enter") submit.click()
+		if(k.key == "Enter") submit.click();
+		alert(k.key + "  ,  " + k.which);
 	}
 	submit.addEventListener("click",check);
 	let clicked = false;

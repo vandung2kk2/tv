@@ -1,3 +1,6 @@
+html{
+	font-size:18px;
+}
 *{
 	margin:0;
 	padding:0;
@@ -60,7 +63,7 @@
 .btn{
 	text-align:center;
 	padding:10px;
-	margin:0 1rem;
+	margin:0 0.8rem;
 	cursor:pointer;
 	user-select: none;
 	border-radius:4px;
@@ -78,7 +81,7 @@
 }
 #guest{
 	margin-top:10px;
-	background:linear-gradient(120deg, #f4f4f4, #efefef);
+	background:linear-gradient(120deg, #f9f9f9, #f3f3f3);
 	transition:0.2s;
 }
 #guest:hover{
