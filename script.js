@@ -1,4 +1,4 @@
-window.onload = function(){
+//window.onload = function(){
 	alert("OK");
 	var inp = document.getElementById("inputer"),
 		ids = document.getElementsByClassName("id");
@@ -54,4 +54,4 @@ window.onload = function(){
 			last = 0;
 		}
 	}
-}
+//}
