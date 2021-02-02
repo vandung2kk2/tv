@@ -1,6 +1,7 @@
 //window.onload = function(){
+
 	alert("OK");
-	var inp = document.getElementById("inputer"),
+	/*var inp = document.getElementById("inputer"),
 		ids = document.getElementsByClassName("id");
 	var submit = document.getElementById("submit"),
 		focus = document.getElementById("ids");
@@ -53,5 +54,5 @@
 			inp.value="";
 			last = 0;
 		}
-	}
+	}*/
 //}
