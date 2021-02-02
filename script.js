@@ -1,4 +1,5 @@
 window.onload = function(){
+	alert("OK");
 	var inp = document.getElementById("inputer"),
 		ids = document.getElementsByClassName("id");
 	var submit = document.getElementById("submit"),
@@ -20,7 +21,7 @@ window.onload = function(){
 	})
 	inp.onkeydown = function(k){
 		if(k.key == "Enter") submit.click();
-		alert(k.key + "  ,  " + k.which);
+		alert("...");
 	}
 	submit.addEventListener("click",check);
 	let clicked = false;
